@@ -1,0 +1,212 @@
+ /* Global Styles */
+ .body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Payment Section Cards */
+.card2 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card2:hover {
+    transform: scale(1.05); /* Subtle hover effect */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image inside Cards */
+.service-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Feature Cards */
+.feature-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Responsive Typography */
+@media (max-width: 576px) {
+    .h1 {
+        font-size: 1.5rem;
+    }
+    .p1 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Payment Section Alignment */
+.payment1, .payment2 {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    margin-top: 20px;
+    padding: 30px;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.btn-dark {
+    border-radius: 20px;
+}
+.card2 {
+padding: 20px;
+margin: 10px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background-color: #f9f9f9;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fa-4x {
+color: #007bff; /* Customize icon color */
+}
+
+.h2 {
+margin-top: 10px;
+font-size: 1.5rem;
+}
+
+.p {
+margin-top: 5px;
+font-size: 1rem;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+    color:white;
+}
+
+/* Impact Section */
+.impact-section {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.impact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.card {
+    text-align: center;
+    background-color: black;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 40px 20px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-store {
+    width: 150px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
